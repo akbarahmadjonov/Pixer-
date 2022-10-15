@@ -447,7 +447,7 @@ hr {
 
 .box-method .img-1 {
     /* Couldn't get image without border-radius */
-    border-radius: 1px;
+    border-radius: 8px;
     margin-right: 32px;
 }
 
