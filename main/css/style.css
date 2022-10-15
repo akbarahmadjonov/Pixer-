@@ -1,0 +1,610 @@
+/* Linking font-styles */
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/transfonter.org-20221014-200409/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('..//fonts/transfonter.org-20221014-200409/PlusJakartaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* Linking font-styles */
+
+/* Started styling of items */
+
+/* Header part started */
+
+/* Default values */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: fill;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/* Default values */
+
+.container {
+    width: 1370px;
+    margin: 0 auto;
+}
+
+/* Changing of (hr) tag color */
+hr {
+    height: 1px;
+    background-color: #EEEEF4;
+    border: none;
+}
+
+/* .headerUp {
+    padding: 30px 0px 122px 0px;
+} */
+.navs-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.wrapper-header .image-div img {
+    margin-right: 50px;
+}
+/* When it is an hover */
+.wrapper-header .image-div img:hover {
+    opacity: 0.8;
+}
+/* When it is an hover */
+
+/* When it is an active */
+.wrapper-header .image-div img:active {
+    opacity: 0.6;
+}
+/* When it is an active */
+
+.wrapper-header nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+.wrapper-header nav a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #101010;
+    transition: all 0.3s ease;
+}
+/* When it is an hover */
+.wrapper-header nav a:hover {
+    color: #1AAB7B;
+}
+/* When it is an hover */
+
+/* When it is an active */
+.wrapper-header nav a:active {
+    color: #1AAB7B;
+    opacity: 0.6;
+}
+/* When it is an active */
+
+.wrapper-header .clickableButton a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 610px;
+    padding: 12px 24px 12px 24px;
+    display: block;
+    background: #101010;
+    border: 1px solid #101010;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease;
+    /* Styles anchor tags */
+}
+/* When it is hover */
+.wrapper-header .clickableButton a:hover {
+    background: #FFFFFF;
+    border: 1px solid #1AAB7B;
+    color: #1AAB7B;
+    border-radius: 6px;
+}
+/* When it is hover */
+
+/* When it is an active */
+.wrapper-header .clickableButton a:active {
+    background: #101010;
+    opacity: 0.6;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: 1px solid #101010;
+}
+/* When it is an active */
+
+/* Header part started */
+
+/* Hero section begin */
+.section-hero {
+    padding-top: 122px;
+    padding-bottom: 155px;
+}
+
+.section-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    width: 508px;
+}
+
+.content-box a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    background: #1AAB7B;
+    border: 1.5px solid transparent;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    transition: all 0.3s ease;
+}
+/* When it is hover */
+.content-box a:hover {
+    background: #FFFFFF;
+    border: 1.5px solid #1AAB7B;
+    border-radius: 6px;
+    color: #1AAB7B;
+}
+/* When it is hover */
+
+/* When it is active */
+.content-box a:active {
+    background: #1AAB7B;
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 6px;
+}
+/* When it is active */
+
+.section-box h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: #101010;
+    margin-bottom: 20px;
+}
+
+.section-box p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #636F87;
+    margin-bottom: 20px;
+}
+
+
+.section-box .iframVid {
+    border-radius: 10px;
+}
+
+/* Hero section begin */
+
+/**** Section hero completed ****/
+
+/*** Help section ***/
+.help-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#F2F4F6;
+}
+
+.help-div h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #101010;
+    padding-bottom: 40px;
+}
+
+.box-holders {    
+    /* margin: 0 auto; */
+    border: 2px solid #E1E7ED;
+    border-radius: 6px;
+    display: inline-block;
+    /* padding: 40px 30px 40px 30px; */
+    padding: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.wrapperAll {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-holder {
+    width: 290px;
+}
+
+/* Pseudo elements */
+.content-holder .first-tag::after {
+    margin: 0 auto;
+    content: '';
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/help-img-1.svg');
+    /* First icon couldn't be downloaded in figma */
+    display: inline-block;
+    background-size: contain;
+}
+
+.content-holder .second-tag::after {
+    margin: 0 auto;
+    content: '';
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/help-img-2.svg');
+    display: inline-block;
+    background-size: contain;
+}
+
+.content-holder .third-tag::after {
+    margin: 0 auto;
+    content: '';
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/help-img-3.svg');
+    display: inline-block;
+    background-size: contain;
+}
+
+.content-holder .fourth-tag::after {
+    margin: 0 auto;
+    content: '';
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/help-img-3.svg');
+    display: inline-block;
+    background-size: contain;
+}
+
+.content-holder .fifth-tag::after {
+    margin: 0 auto;
+    content: '';
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/help-img-2.svg');
+    display: inline-block;
+    background-size: contain;
+}
+
+/* Pseudo elements */
+
+
+/* Change colors when hovers */
+.box-holders:hover {
+    background: #1AAB7B;;
+}
+.box-holders:hover h3 {
+    color: #fff;
+}
+
+.box-holders:hover p {
+    color: #fff;
+}
+
+.box-holders:hover a {
+    text-decoration: underline;
+    color: #fff;
+}
+/* Change colors when hovers */
+
+/* When the box hovers */
+.content-holder:hover h3 {
+    color: #fff;
+}
+
+/* When the box hovers */
+
+.content-holder h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #101010;
+    margin-bottom: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.content-holder p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #636F87;
+    margin-bottom: 20px;
+}
+
+.content-holder a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*** Help section ***/
+
+/* Working method */
+.wrapper-working {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.title-centers {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.title-centers h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #101010;
+    margin-bottom: 16px;
+}
+
+.title-centers p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #636F87;
+}
+
+.wrapper-method {
+    margin-top: 90px;
+}
+
+.method-items {
+    width: 488px;
+}
+
+.box-method {
+    margin-bottom: 100px;
+}
+
+.box-method .img-1 {
+    /* Couldn't get image without border-radius */
+    border-radius: 1px;
+    margin-right: 32px;
+}
+
+.box-method .img-2 {
+    margin-left: 32px;
+}
+
+.wrapper-method .box-method:nth-child(2) {
+    /* display: flex; */
+    flex-direction: row-reverse;
+    margin-right: 32px;
+}
+
+.method-items h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #101010;
+    margin-bottom: 20px;
+}
+
+.method-items p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #636F87;
+}
+
+.wrapper-method .box-method {
+    display: flex;
+    align-items: center;
+}
+
+/* Working method */
+
+/* Contact section */
+.contact {
+    margin-bottom: 60px;
+}
+
+.title-up {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.contact-centers {
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-centers h2 {
+    margin-bottom: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #101010;
+}
+
+.contact-centers p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #636F87;
+}
+
+.wrapper-form {
+    margin-top: 60px;
+    background: #F2F4F6;
+    border-radius: 6px;
+}
+
+.wrapper-form .inputs-wrapper {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.wrapper-form input {
+    margin: 0 auto;
+    width: 384px;
+    outline: none;
+    background: transparent;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-bottom-color: #636F87;
+    margin-bottom: 51px;
+    padding: 20px 0;
+}
+
+.wrapper-form input::placeholder {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    color: #101010;
+}
+
+.wrapper-form select {
+    width: 384px;
+    outline: none;
+    border-width: 0 0 2px;
+    background: transparent;
+    width: 384px;
+    display: inline-block;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-bottom-color: #636F87;
+    padding: 20px 0;
+    cursor: pointer;
+    /* Select option couldn't be styled */
+}
+
+.wrapper-form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background: #1AAB7B;
+    border-radius: 6px;
+    border: 1.5px solid transparent;
+    padding: 20px 69.5px 20px 69.5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* When it is hover */
+.wrapper-form button:hover {
+    background: transparent;
+    border: 1.5px solid #1AAB7B;
+    border-radius: 6px;
+    color: #1AAB7B;
+}
+/* When it is hover */
+
+/* When it is active */
+.wrapper-form button:active {
+    background: #1AAB7B;
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 6px;
+}
+/* When it is active */
+
+.wrapper-form small {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #858EA2;
+    margin-top: 24px;
+    display: block;
+}
+
+/* Contact section */
+
+/* Footer section */
+.footer-top {
+    margin-top: 200px;
+}
+
+/* Footer section */
