@@ -461,7 +461,11 @@ hr {
     margin-right: 32px;
 }
 
-.method-items h3 {
+.method-items li {
+    list-style: none;
+}
+
+.method-items .up-size {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -470,7 +474,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.method-items p {
+.method-items .up-title {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
