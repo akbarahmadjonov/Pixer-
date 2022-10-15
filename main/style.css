@@ -295,7 +295,7 @@ hr {
     content: '';
     width: 64px;
     height: 64px;
-    background-image: url('../images/help-img-1.svg');
+    background-image: url('../images/help-img-1.jpg');
     /* First icon couldn't be downloaded in figma */
     display: inline-block;
     background-size: contain;
@@ -306,7 +306,7 @@ hr {
     content: '';
     width: 64px;
     height: 64px;
-    background-image: url('../images/help-img-2.svg');
+    background-image: url('../images/help-img-2.jpg');
     display: inline-block;
     background-size: contain;
 }
@@ -316,7 +316,7 @@ hr {
     content: '';
     width: 64px;
     height: 64px;
-    background-image: url('../images/help-img-3.svg');
+    background-image: url('../images/help-img-3.jpg');
     display: inline-block;
     background-size: contain;
 }
@@ -326,7 +326,7 @@ hr {
     content: '';
     width: 64px;
     height: 64px;
-    background-image: url('../images/help-img-3.svg');
+    background-image: url('../images/help-img-3.jpg');
     display: inline-block;
     background-size: contain;
 }
@@ -336,7 +336,7 @@ hr {
     content: '';
     width: 64px;
     height: 64px;
-    background-image: url('../images/help-img-2.svg');
+    background-image: url('../images/help-img-2.jpg');
     display: inline-block;
     background-size: contain;
 }
