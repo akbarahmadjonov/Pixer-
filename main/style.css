@@ -47,6 +47,11 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* margin: 0; */
+}
+
 img {
     vertical-align: middle;
     object-fit: fill;
@@ -117,7 +122,6 @@ hr {
 }
 
 .wrapper-header nav a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
@@ -139,7 +143,6 @@ hr {
 /* When it is an active */
 
 .wrapper-header .clickableButton a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     margin-left: 610px;
     padding: 12px 24px 12px 24px;
@@ -192,7 +195,6 @@ hr {
 }
 
 .content-box a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -224,7 +226,6 @@ hr {
 /* When it is active */
 
 .section-box h1 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 140%;
@@ -233,7 +234,6 @@ hr {
 }
 
 .section-box p {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -258,7 +258,6 @@ hr {
 }
 
 .help-div h2 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     font-weight: 600;
     font-size: 36px;
@@ -370,7 +369,6 @@ hr {
 /* When the box hovers */
 
 .content-holder h3 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 140%;
@@ -382,7 +380,6 @@ hr {
 }
 
 .content-holder p {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
@@ -391,7 +388,6 @@ hr {
 }
 
 .content-holder a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
@@ -414,7 +410,6 @@ hr {
 }
 
 .title-centers h2 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     font-weight: 600;
     font-size: 36px;
@@ -425,7 +420,6 @@ hr {
 }
 
 .title-centers p {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
@@ -466,7 +460,6 @@ hr {
 }
 
 .method-items .up-size {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 140%;
@@ -475,7 +468,6 @@ hr {
 }
 
 .method-items .up-title {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
@@ -507,7 +499,6 @@ hr {
 
 .contact-centers h2 {
     margin-bottom: 16px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     font-weight: 600;
     font-size: 36px;
@@ -517,7 +508,6 @@ hr {
 }
 
 .contact-centers p {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
@@ -553,7 +543,6 @@ hr {
 }
 
 .wrapper-form input::placeholder {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
@@ -580,7 +569,6 @@ hr {
 }
 
 .wrapper-form .select {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
@@ -620,7 +608,6 @@ hr {
 /* When it is active */
 
 .wrapper-form small {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 150%;
@@ -651,7 +638,6 @@ hr {
 }
 
 .footer-items strong {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
@@ -661,7 +647,6 @@ hr {
 }
 
 .footer-wrapper a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -709,7 +694,6 @@ hr {
     display: block;
     width: 250px;
     margin-bottom: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 150%;
@@ -748,7 +732,6 @@ hr {
 }
 
 .logo-wrapper small {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 150%;
